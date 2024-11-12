@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD NUMBERS PANNEL</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+
+<body>
+    <div class="container">
+        <h2>Pannel For Addition Of Two Numbers</h2>
+            
+        <!-- backend pe jaa k yh url execute hoga / post => used for sending data -->
+
+        <form action="/user/add" method="post"> 
+
+        <!-- user_model me ids k hi varaiable use krny hein
+        then uny jo name dia he wo basically input he usy get krna h form.get kr k
+        then usy float me convert kr dia he -->
+        
+        <input id="num1" type="text" name = number1 placeholder="Enter first number here">
+        <input id="num2" type="text" name = number2 placeholder="Enter second number here">
+        <button type="submit">ADD</button>
+
+        </form>
+        <p> Result: {{ result }}</p>
+    </div>
+</body>
+</html>

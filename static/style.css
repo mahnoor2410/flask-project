@@ -1,0 +1,55 @@
+body{
+    background-color: #eeeded;
+}
+
+form {
+    text-align: center;
+ }
+
+#num1 {
+    color : black ;
+    width : 160px;
+    height : 30px;
+}
+
+#num2 {
+    color : black ;
+    width : 180px;
+    height : 30px;
+}
+
+button {
+    width : 60px;
+    height : 30px ;
+    background-color: #C73659;
+    color: white;
+    border-radius: 5px;
+    box-shadow :#C73659;
+}
+
+h2{
+  color : black ;
+  text-decoration: dashed;
+
+}
+
+.container {
+    max-width: 600px;
+    margin: 300px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    color : #C73659 
+ }
+
+ h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #A91D3A ;
+ }
